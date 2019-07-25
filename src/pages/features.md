@@ -39,6 +39,7 @@ menus:
   main:
     title: Services
     weight: 2
+    url: "#features"
 template: features
 ---
 
