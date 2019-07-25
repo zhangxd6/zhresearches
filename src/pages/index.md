@@ -1,61 +1,47 @@
 ---
 title: Home
 sections:
-  - type: heroblock
-    section_id: hero
-    title: This Is A Big Hero Headline
-    component: HeroBlock
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
-    image: images/hero.png
-    actions:
+  - actions:
       - label: Learn More
-        url: /features
-  - type: featuresblock
-    section_id: features
-    title: Features
+        url: /contact/
+    component: HeroBlock
+    content: |-
+      * Complete and Steady Web Solution
+      * Extensive and vivid Mobile Development
+      * Comprehensive Maintainable with 100% Client satisfaction
+    image: images/hero.png
+    section_id: hero
+    title: We help you build web solution to deliver your value
+    type: heroblock
+  - bg: gray
     component: FeaturesBlock
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        image: images/feature1.png
-        actions:
+      - actions:
           - label: Learn More
             url: /features
-      - title: Awesome Feature of Your Services
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        image: images/feature2.png
-        actions:
+          We will help you erect your website from scratch just how you want it
+          and stay with you to make sure it stays on the top.
+        image: ''
+        title: Website Development
+      - actions:
           - label: Learn More
             url: /features
-      - title: Cool Feature of Your Services
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        image: images/feature3.png
-        actions:
+        content: We will help you deliver your Mobile Applications to iOs and Android.
+        image: /images/feature1.png
+        title: Mobile Application Development
+      - actions:
           - label: Learn More
             url: /features
-  - type: reviewsblock
-    section_id: reviews
-    title: Testimonials
+        content: 'You have the need, we are here to help.'
+        image: /images/about.jpg
+        title: Consulting Service
+    section_id: features
+    subtitle: ''
+    title: Professional Services
+    type: featuresblock
+  - bg: white
     component: ReviewsBlock
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    bg: white
     reviews:
       - author: John Doe
         avatar: images/review1.jpg
@@ -73,22 +59,24 @@ sections:
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: ctablock
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    component: CtaBlock
-    subtitle: This is an optional description for the call to action block.
-    actions:
+    section_id: reviews
+    subtitle: >-
+      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
+      semper libero id sodales. 
+    title: Testimonials
+    type: reviewsblock
+  - actions:
       - label: Get Started
         url: /signup
-  - type: postsblock
-    section_id: recent-posts
-    title: Latest Posts
-    component: PostsBlock
-    bg: gray
+    component: CtaBlock
+    section_id: call-to-action
+    subtitle: This is an optional description for the call to action block.
+    title: This Is Call To Action Block!
+    type: ctablock
 menus:
   main:
     title: Home
     weight: 1
 template: home
 ---
+
