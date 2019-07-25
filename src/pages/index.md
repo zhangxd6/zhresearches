@@ -2,7 +2,7 @@
 title: Home
 sections:
   - actions:
-      - label: Learn More
+      - label: Let's Talk
         url: /contact/
     component: HeroBlock
     content: |-
@@ -18,7 +18,7 @@ sections:
     featureslist:
       - actions:
           - label: Learn More
-            url: /features
+            url: /contact/
         content: >-
           We will help you erect your website from scratch just how you want it
           and stay with you to make sure it stays on the top.
@@ -26,13 +26,13 @@ sections:
         title: Website Development
       - actions:
           - label: Learn More
-            url: /features
-        content: We will help you deliver your Mobile Applications to iOs and Android.
+            url: /contact/
+        content: We will help you deliver your Mobile Applications to iOS and Android.
         image: /images/feature1.png
         title: Mobile Application Development
       - actions:
           - label: Learn More
-            url: /features
+            url: /contact/
         content: 'You have the need, we are here to help.'
         image: /images/dylan-gillis-kdeqa3atnby-unsplash.jpg
         title: Consulting Service
@@ -65,14 +65,6 @@ sections:
       semper libero id sodales. 
     title: Testimonials
     type: reviewsblock
-  - actions:
-      - label: Get Started
-        url: /signup
-    component: CtaBlock
-    section_id: call-to-action
-    subtitle: This is an optional description for the call to action block.
-    title: This Is Call To Action Block!
-    type: ctablock
 menus:
   main:
     title: Home
