@@ -22,7 +22,7 @@ sections:
         content: >-
           We will help you erect your website from scratch just how you want it
           and stay with you to make sure it stays on the top.
-        image: ''
+        image: /images/william-iven-ir5likvfqc4-unsplash.jpg
         title: Website Development
       - actions:
           - label: Learn More
@@ -34,7 +34,7 @@ sections:
           - label: Learn More
             url: /features
         content: 'You have the need, we are here to help.'
-        image: /images/about.jpg
+        image: /images/dylan-gillis-kdeqa3atnby-unsplash.jpg
         title: Consulting Service
     section_id: features
     subtitle: ''
