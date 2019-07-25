@@ -37,8 +37,8 @@ sections:
     type: ctablock
 menus:
   main:
-    title: ''
-    weight: ''
+    title: Services
+    weight: 2
 template: features
 ---
 
